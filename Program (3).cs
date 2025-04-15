@@ -19,9 +19,9 @@ namespace MyApplication
 
         public void calculate_price()
         {
-            if ((type.ToLower()) == "kids")
+            if ((type.ToLower()) == "audult")
             {
-                if ((jersey.ToLower()) == "yes")
+                if ((jersey.ToLower()) == "no")
                 {
                     total_price = 150 + 100;
 
